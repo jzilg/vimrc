@@ -1,9 +1,9 @@
 #!/bin/bash
 
 copyFiles() {
-    cp ./vimrc ~/.vimrc
+    cp ./src/vimrc ~/.vimrc
     printf "\n.vimrc copied"
-    cp -r ./vim ~/.vim
+    cp -r ./src/vim ~/.vim
     printf "\n.vim/ copied"
 }
 
