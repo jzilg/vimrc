@@ -4,10 +4,11 @@ My prefered vim settings and color scheme.
 * linenumbers, syntax highlighting, etc.
 * statusbar
 * colorschme [onedark](https://github.com/joshdick/onedark.vim)
+* [editorconfig support](https://github.com/editorconfig/editorconfig-vim)
 
 ## Install
 
-Copy the vimrc and the vim directory as hidden files into your home directory. You can do it either manually or run the install.sh.
+Run the install.sh.
 
 make install.sh executable
 
