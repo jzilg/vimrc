@@ -1,10 +1,11 @@
 # vimrc
 My prefered vim settings and color scheme.
 
-* linenumbers, syntax highlighting, etc.
-* statusbar
+* vimrc for linenumbers, syntax highlighting, etc.
+* custom statusbar
 * colorschme [onedark](https://github.com/joshdick/onedark.vim)
-* [editorconfig support](https://github.com/editorconfig/editorconfig-vim)
+* plugin [editorconfig](https://github.com/editorconfig/editorconfig-vim)
+* plugin [auto-pairs](https://github.com/jiangmiao/auto-pairs)
 
 ## Install
 
