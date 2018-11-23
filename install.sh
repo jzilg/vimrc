@@ -19,8 +19,8 @@ if [ ! -d "~/.vim/autoload" ]; then
     mkdir ~/.vim/autoload
 fi
 
-cp ./onedark.vim/colors/onedark.vim ~/.vim/colors/onedark.vim
-cp ./onedark.vim/autoload/onedark.vim ~/.vim/autoload/onedark.vim
+cp -iv ./onedark.vim/colors/onedark.vim ~/.vim/colors/onedark.vim
+cp -iv ./onedark.vim/autoload/onedark.vim ~/.vim/autoload/onedark.vim
 rm -rf ./onedark.vim
 
 # auto-pairs
