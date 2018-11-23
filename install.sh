@@ -24,7 +24,14 @@ cp ./onedark.vim/autoload/onedark.vim ~/.vim/autoload/onedark.vim
 rm -rf ./onedark.vim
 
 # auto-pairs
-git clone git://github.com/jiangmiao/auto-pairs.git ~/.vim/bundle/auto-pairs
+git clone https://github.com/jiangmiao/auto-pairs.git
+
+if [ ! -d "~/.vim/plugin" ]; then
+    mkdir ~/.vim/plugin
+fi
+
+cp -iv ./auto-pairs/plugin/auto-pairs.vim ~/.vim/plugin/auto-pairs.vim
+rm -rf ./auto-pairs
 
 # editorconfig-vim support
 git clone https://github.com/editorconfig/editorconfig-vim.git
